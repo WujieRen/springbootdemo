@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
+        System.out.println("这是小猿添加的代码");
         return "hello SpringBoot!";
     }
 }
