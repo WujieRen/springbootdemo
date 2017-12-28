@@ -20,10 +20,10 @@ import java.util.Map;
  *      ①添加pom依赖
  *      ②添加application.properties依赖
  *          # 页面默认前缀目录
-            spring.mvc.view.prefix= /WEB-INF/jsp/
-            # 响应页面默认后缀
-            spring.mvc.view.suffix=.jsp
-        ③建响应目录
+ *          spring.mvc.view.prefix= /WEB-INF/jsp/
+ *          # 响应页面默认后缀
+ *          spring.mvc.view.suffix=.jsp
+ *          ③建响应目录
  */
 @Controller
 public class PageController {
