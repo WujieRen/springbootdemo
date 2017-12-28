@@ -6,6 +6,7 @@
 	<groupId>com.springboot</groupId>
 	<artifactId>demo1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<!--<packaging>war</packaging>-->
 	<packaging>jar</packaging>
 
 	<name>demo1</name>
@@ -76,6 +77,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- 支持jsp相关 -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<!--<scope>provided</scope>-->
+		</dependency>
+
 	</dependencies>
 
 	<build>
