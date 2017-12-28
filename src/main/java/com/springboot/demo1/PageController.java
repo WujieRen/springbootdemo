@@ -24,6 +24,7 @@ import java.util.Map;
  *          # 响应页面默认后缀
  *          spring.mvc.view.suffix=.jsp
  *          ③建响应目录
+ *
  */
 @Controller
 public class PageController {
