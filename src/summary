@@ -44,7 +44,12 @@
     二、启动加载数据 CommandLineRunner
         http://blog.csdn.net/catoop/article/details/50501710
 
-    三、
+    三、Spring Boot 日志记录 SLF4J (Simple Logging Facade For Java)
+        1. http://tengj.top/2017/04/05/springboot7/
+        2. http://blog.csdn.net/catoop/article/details/50501714
+        3. https://www.cnblogs.com/lixuwu/p/5804793.html#_label0
+        4. http://www.jb51.net/article/118849.htm
+
 
 
 
