@@ -8,11 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+
+
+
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
 <head>
     <title>Spring Boot Sample</title>
 </head>
 
 <body>
+<script type="text/javascript" src="js/heart.js"></script>
 <h1>${content }</h1>
 <h1>${selfTest }</h1>
 </body>

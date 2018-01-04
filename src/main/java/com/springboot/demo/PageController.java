@@ -35,7 +35,7 @@ public class PageController {
     /**
      * 默认页<br/>
      * @RequestMapping("/") 和 @RequestMapping 是有区别的
-     * 如果不写参数，则为全局默认页，加入输入404页面，也会自动访问到这个页面。
+     * 如果不写参数，则为全局默认页，假如输入404页面，也会自动访问到这个页面。
      * 如果加了参数“/”，则只认为是根页面。
      *
      * @return

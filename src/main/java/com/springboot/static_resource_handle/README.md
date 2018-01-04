@@ -1,17 +1,4 @@
-
-## Reference   
-1. http://blog.csdn.net/catoop/article/details/50501664
-
-
-## 2018/1/3   
-    静态资源处理
-    1. http://blog.csdn.net/catoop/article/details/50501706
-
-    2.
-
-
-2018/1/4
-    静态资源处理：
+ 静态资源处理：
       - Reference：
         1. http://blog.csdn.net/catoop/article/details/50501706
         2. http://blog.csdn.net/yingxiake/article/details/51295551
@@ -38,11 +25,3 @@
                 web开发过程中，前端页面用了越来越多的JS或CSS，平时我们将这些Web资源 copy 在java目录下，但是这种人工 copy 的方式容易产生版本误差，copy 出错等问题。WebJars 就是将js, css 等资源文件放到 classpath:/META-INF/resources/webjars/ 中，然后打包成jar 发布到maven仓库中。能够解决上述问题。
             用法：
                 用法存疑，暂时先不管了。以后遇到再说。没搞明白——按网站试着做了不行。
-
-            最终还是用在 static 下建js、css解决。试了下立马success。
-
-
-
-
-
-
