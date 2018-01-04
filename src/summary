@@ -11,7 +11,7 @@
 
 
 2018/1/4
-    静态资源处理：
+    一、静态资源处理：
       - Reference：
         1. http://blog.csdn.net/catoop/article/details/50501706
         2. http://blog.csdn.net/yingxiake/article/details/51295551
@@ -41,6 +41,10 @@
 
             最终还是用在 static 下建js、css解决。试了下立马success。
 
+    二、启动加载数据 CommandLineRunner
+        http://blog.csdn.net/catoop/article/details/50501710
+
+    三、
 
 
 
