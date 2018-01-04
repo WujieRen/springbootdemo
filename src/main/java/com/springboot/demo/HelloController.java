@@ -1,4 +1,4 @@
-package com.springboot.demo1;
+package com.springboot.demo;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
