@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box] ;
+
+0 [label="petal width (cm) <= 0.8\nsamples = 150\nclass = setosa"] ;
+
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+
+2 [label="petal width (cm) <= 1.75\nsamples = 100\nclass = versicolor"] ;
+
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+
+3 [label="petal length (cm) <= 4.95\nsamples = 54\nclass = versicolor"] ;
+
+2 -> 3 ;
+
+4 [label="petal width (cm) <= 1.65\nsamples = 48\nclass = versicolor"] ;
+
+3 -> 4 ;
+
+
+}

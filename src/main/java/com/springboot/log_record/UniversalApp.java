@@ -1,4 +1,4 @@
-package com.springboot.BootLoadData;
+package com.springboot.log_record;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

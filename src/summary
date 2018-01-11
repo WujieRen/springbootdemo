@@ -66,5 +66,41 @@
 
 2018/1/9
 
-    一、
+    一、SpringBoot MyBatis 连接数据库
+        Reference
+            1.https://www.cnblogs.com/shenlanzhizun/p/5832976.html
+
+    二、
+        Reference
+
+
+    三、Python
+        http://lijin-thu.github.io/
+
+        前端学习路线
+
+        What's Deep Learning?
+            https://www.analyticsvidhya.com/blog/2014/06/deep-learning-attention/
+
+    四、Shiro权限控制
+        1. https://www.jianshu.com/p/0f2049a3983b
+        2. http://blog.csdn.net/catoop/article/details/50520958
+
+
+2018/1/11
+
+    一、Invalid Vcs root mapping. The Directory C:\blabla is registered as a Git root,but not。
+        https://teamtreehouse.com/community/invalid-vcs-root-mapping
+
+    二 、引入kaptcha包出错问题，瞎试半天不行。百度半天也没百度出来，原因是搜索关键字不对。(我一开始搜的：IDEA Maven 引包出错。找不到...后来换成：idea kaptcha导包出错，立马搜出来好几个。这也是一个需要有意识注意的地发——搜索语句的提炼。)
+
+        -》 参考链接：
+            1.http://blog.csdn.net/Xth8013/article/details/55666830
+            2.http://blog.csdn.net/gao36951/article/details/48261003
+            3.http://blog.csdn.net/tite_lin/article/details/6181781
+
+        -》 按着原始链接命令没解决，最终解决命令：
+       	    mvn install:install-file -DgroupId=com.google.code.kaptcha -DartifactId=kaptcha -Dversion=2.3.2 -Dfile=kaptcha-2.3.jar -Dpackaging=jar -DgeneratePom=true
+
+        -》 然后关闭再重新打开该项目，成功。
 

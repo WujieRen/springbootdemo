@@ -1,4 +1,4 @@
-package com.springboot.BootLoadData;
+package com.springboot.boot_load_data;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;
