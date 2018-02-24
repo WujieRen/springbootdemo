@@ -1,0 +1,6 @@
+问题：
+    1. push时报错：push failed, could not read remote repository
+        解决：
+            https://stackoverflow.com/questions/27566999/git-with-intellij-idea-could-not-read-from-remote-repository
+
+            settings-->Version Control-->Git ,and then, In the SSH executable dropdown, choose Native
