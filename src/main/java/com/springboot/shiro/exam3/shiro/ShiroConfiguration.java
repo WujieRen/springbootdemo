@@ -1,24 +1,9 @@
 package com.springboot.shiro.exam3.shiro;
 
-import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
-import org.apache.shiro.cache.ehcache.EhCacheManager;
-import org.apache.shiro.mgt.SecurityManager;
-import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
-import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
-import org.apache.shiro.web.mgt.CookieRememberMeManager;
-import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
-import org.apache.shiro.web.servlet.SimpleCookie;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.core.annotation.Order;
-
-import javax.servlet.Filter;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 /**
  * Created by renwujie on 2018/01/11 at 11:08
  */
+/*
 @Configuration
 @Order(1)
 public class ShiroConfiguration {
@@ -99,9 +84,11 @@ public class ShiroConfiguration {
         return securityManager;
     }
 
-    /**
+    */
+/**
      * 身份认证realm; (这个需要自己写，账号密码校验；权限等)
-     */
+     *//*
+
     @Bean
     public MyShiroRealm myShiroRealm() {
         MyShiroRealm myShiroRealm = new MyShiroRealm();
@@ -109,10 +96,12 @@ public class ShiroConfiguration {
         return myShiroRealm;
     }
 
-    /**
+    */
+/**
      * 凭证匹配器 （由于我们的密码校验交给Shiro的SimpleAuthenticationInfo进行处理了
      * 所以我们需要修改下doGetAuthenticationInfo中的代码; @return
-     */
+     *//*
+
     @Bean
     public HashedCredentialsMatcher hashedCredentialsMatcher() {
         HashedCredentialsMatcher hashedCredentialsMatcher = new HashedCredentialsMatcher();
@@ -122,11 +111,13 @@ public class ShiroConfiguration {
         return hashedCredentialsMatcher;
     }
 
-    /**
+    */
+/**
      * 开启shiro aop注解支持. 使用代理方式;所以需要开启代码支持;
      * @param securityManager
      * @return
-     */
+     *//*
+
     @Bean
     public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(SecurityManager securityManager) {
         AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor = new AuthorizationAttributeSourceAdvisor();
@@ -134,14 +125,16 @@ public class ShiroConfiguration {
         return authorizationAttributeSourceAdvisor;
     }
 
-    /**
+    */
+/**
      * shiro缓存管理器;
      * 需要注入对应的其它的实体类中：
      * 1、安全管理器：securityManager
      * 可见securityManager是整个shiro的核心；
      *
      * @return
-     */
+     *//*
+
     @Bean
     public EhCacheManager ehCacheManager(){
         EhCacheManager cacheManager = new EhCacheManager();
@@ -149,10 +142,12 @@ public class ShiroConfiguration {
         return cacheManager;
     }
 
-    /**
+    */
+/**
      * cookie对象;
      * @return
-     * */
+     * *//*
+
     @Bean
     public SimpleCookie rememberMeCookie(){
         //System.out.println("ShiroConfiguration.rememberMeCookie()");
@@ -163,10 +158,12 @@ public class ShiroConfiguration {
         return simpleCookie;
     }
 
-    /**
+    */
+/**
      * cookie管理对象;
      * @return
-     */
+     *//*
+
     @Bean
     public CookieRememberMeManager rememberMeManager(){
         //System.out.println("ShiroConfiguration.rememberMeManager()");
@@ -176,3 +173,4 @@ public class ShiroConfiguration {
     }
 
 }
+*/
