@@ -1,4 +1,4 @@
-package com.springbootnew.uploadfile.util;
+package com.springbootnew.uploadfile.demo1.util;
 
 import com.github.junrar.Archive;
 import com.github.junrar.rarfile.FileHeader;

@@ -1,6 +1,6 @@
-package com.springbootnew.uploadfile.controller;
+package com.springbootnew.uploadfile.demo1.controller;
 
-import com.springbootnew.uploadfile.util.ParseFileUtil;
+import com.springbootnew.uploadfile.demo1.util.ParseFileUtil;
 import org.apache.commons.io.FileUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

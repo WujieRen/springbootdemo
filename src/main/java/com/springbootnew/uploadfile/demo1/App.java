@@ -1,4 +1,4 @@
-package com.springbootnew.uploadfile;
+package com.springbootnew.uploadfile.demo1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
