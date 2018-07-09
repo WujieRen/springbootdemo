@@ -1,5 +1,7 @@
 package com.springboot;
 
+import org.junit.Test;
+
 import java.io.*;
 
 /**
@@ -58,5 +60,11 @@ public class TestYaFang {
 
         }
         return false;
+    }
+
+    @Test
+    public void testSlogan() {
+        //\u00A0 is a new line
+        System.out.println("\u00A0是一个换行符");
     }
 }
